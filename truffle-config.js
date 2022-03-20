@@ -18,7 +18,7 @@
 *
 */
  
-const HDWalletProvider = require('@truffle/hdwallet-provider');
+const HDWalletProvider = require("truffle-hdwallet-provider");
 require('dotenv').config();
  
 module.exports = {
@@ -66,7 +66,7 @@ module.exports = {
  // Configure your compilers
  compilers: {
    solc: {
-     version: "0.6.11",    // Fetch exact version from solc-bin (default: truffle's version)
+     version: "0.8.13",    // Fetch exact version from solc-bin (default: truffle's version)
      // docker: true,        // Use "0.5.1" you've installed locally with docker (default: false)
      settings: {          // See the solidity docs for advice about optimization and evmVersion
        optimizer: {
