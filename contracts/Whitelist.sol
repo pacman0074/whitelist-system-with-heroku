@@ -4,7 +4,7 @@ pragma solidity 0.6.11;
 contract Whitelist {
     mapping(address=> bool) public _whitelist;
     address[] public addresses;
-    event Whitelisted(address _address); 
+    event Whitelisted(address _address);  
 
     function whitelist(address _address) public {
         require(!_whitelist[_address], "This address is already whitelisted !");
