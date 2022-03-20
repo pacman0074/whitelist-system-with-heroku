@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/whitelist-system-with-heroku/precache-manifest.1f6ac718edcf72e1c0730aeae8c9c622.js"
+  "/whitelist-system-with-heroku/precache-manifest.cecc2cc68e5a7f2c8cdf337ecc6c7152.js"
 );
 
 self.addEventListener('message', (event) => {
